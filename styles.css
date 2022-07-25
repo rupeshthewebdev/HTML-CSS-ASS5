@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(247, 242, 242);
+}
+
+h1{
+    padding: 3%;
+    background-color: salmon;
+}
+
+.maindiv{
+    display: flex;
+}
+
+.fdiv{
+    width: 35%;
+    border: 1px solid black; 
+    margin: 3% 7%;
+    background-color: salmon;
+}
+
+.sdiv{
+    width: 35%;
+    border: 1px solid black;
+    margin: 3% 7%;
+    background-color: salmon;
+}
+
+input{
+ width: -webkit-fill-available;
+}
+
+@media screen and (max-width: 677px) {
+address{
+  overflow-x: scroll;
+}
+}
+
+.innerdiv1,.innerdiv2{
+    padding: 9%;
+}
+
+.innerdiv1 address,.innerdiv2 address{
+    padding-top: 5%;
+}
+
+textarea{
+    margin-left:5% ;
+    width: 90%;
+ }
